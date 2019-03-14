@@ -38,11 +38,11 @@ function make_lists($page_name) {
   $list = '<div class="row">';
     foreach ($record as $type=>$wordlist) {
     $type = trim($type);
-    $list .= '<div class="col-md-3"><h2>'.$type.'</h2><ul class="list-group list-group-flush">';
+    $list .= '<div class="col-md-3"><h2>'.$type.'</h2><div class="list-group list-group-flush">';
         foreach ($wordlist as $w) {
-          $list .= '<li class="list-group-item">'.$w['french'].' = '.$w['english'].'</li>';
+          $list .= '<a href="#" class="list-group-item list-group-item-action active">'.$w['french'].' = '.$w['english'].'</a>';
         }
-      $list .= '</ul></div>';
+      $list .= '</div></div>';
     }  
   $list .= '</div>';
 
