@@ -1,0 +1,173 @@
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 350%;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 0%;
+}
+
+p {
+	margin: auto;
+}
+
+body {
+	background-color: #bc4639;
+}
+
+.jumbotron {
+	margin: auto;
+	background-color: #d4a59a;	
+	border-radius: 20px;
+	width: 100%;
+}
+
+.bg-dark {
+	background-color: #c38d9e
+}
+
+main {
+	padding: 1%;
+	margin: 0 0 30px 0;	
+	background-color: #f3e0dc;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+p.genericparagraph {
+	margin: 2%;
+}
+
+
+@media print {
+	nav {
+		display: none;
+	}
+	h1 {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+	body {
+		background-color: white;
+	}
+	a.btn-lg {
+		display: none;
+	}
+}
+
+main h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5%;
+  margin-top: 2.5%;
+}
+
+div h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 400%;
+  font-kerning: auto;
+  text-align: center;
+}
+
+.btn-secondary {
+	background-color: #05386b;
+}
+
+tr, td, th{
+	border: 3px solid rgba(0,0,0,.125);
+	width: 1%;
+	padding: 1%;
+}
+
+th {
+	font-size: 125%;
+	font-family: 'Lato', sans-serif;
+	text-decoration: underline;
+}
+table {
+	width: 50%;
+	margin: auto;
+}
+
+a.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-kerning: none;
+}
+
+div.card {
+	margin-top: 3%;
+}
+
+div.card-header {
+	background-color: #379683;
+}
+
+li {
+	width: 75%;
+}
+
+ol {
+	float: left;
+	width: 45%;
+}
+
+a.btn-primary {
+	margin: 3% 0 0 0;
+}
+
+footer {
+	background-color: white;
+	margin: auto;
+	width: 25%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-align: center;
+}
+
+footer a {
+	padding: 1%;
+	background-color: white;
+	margin: auto;
+}
+
+footer nav {
+	width: 100%;
+	margin: auto;
+	float: left;
+	background-color: white;
+}
+
+footer p {
+	margin: auto;
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  footer {
+  	width: 100%;
+  	text-align: center;
+  }
+  footer nav{
+    display: none;
+  }
+
+  p.biotext {
+  	margin: auto;
+  	width: 100%;
+  }
+
+  a.btn\\btn-primary\\btn-sm\\active {
+  	display: none;
+  }
+
+  div > a.btn {
+  	display: none;
+  }
+
+  table {
+  	width: 100%;
+  	margin: auto;
+  }
+
+}
